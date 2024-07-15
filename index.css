@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: purple; /* Cor de fundo roxa */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background-color: white; /* Cor de fundo da navbar */
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Distribui os botões horizontalmente */
+    position: relative;
+}
+
+.nav-button {
+    color: purple; /* Cor do texto dos botões da navbar */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; /* Margem acima do título */
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: darkgreen; /* Cor verde escura */
+    font-size: 3em;
+}
+
+.button-box {
+    background-color: #ffffff; /* Cor do box roxo */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    width: 250px; /* Largura do box */
+    margin: 20px auto; /* Centraliza o box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: white; /* Cor do botão */
+    color: purple; /* Cor do texto do botão */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas dos botões */
+    margin: 10px 0; /* Espaço entre os botões */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.button:hover {
+    background-color: lightgray; /* Cor ao passar o mouse */
+}
+
+.social {
+    margin-top: auto; /* Empurra o botão para o final da página */
+    padding: 20px; /* Espaçamento */
+}
+
+.instagram-button {
+    background-color: white; /* Cor do botão do Instagram */
+    color: purple; /* Cor do texto */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.instagram-button:hover {
+    background-color: lightgray; /* Cor ao passar o mouse */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: purple; /* Cor de fundo roxa */
+    font-family: 'Cinzel', serif; /* Fonte Cinzel */
+    color: white; /* Cor do texto */
+}
+
+.menu-container {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.8); /* Fundo roxo com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+    color: darkgreen; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+h2 {
+    margin-top: 20px; /* Espaço acima dos subtítulos */
+    font-size: 2em; /* Tamanho dos subtítulos */
+    color: white; /* Cor dos subtítulos */
+}
+
+h3 {
+    font-size: 1.5em; /* Tamanho dos cabeçalhos das seções */
+    color: white; /* Cor dos cabeçalhos */
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em; /* Tamanho da fonte dos itens do cardápio */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+
+.sobre-container {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: rgb(0, 0, 0); /* Fundo preto com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título */
+    color: rgb(0, 45, 0); /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin: 30px 0; /* Espaçamento entre os parágrafos */
+    text-align: left; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+}
+
+.form-container {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.8); /* Fundo roxo com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    color: darkgreen; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: purple; /* Cor de fundo roxa */
+    font-family: 'Cinzel', serif; /* Fonte Cinzel */
+    color: white; /* Cor do texto */
+}
+
+.menu-container2 {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.8); /* Fundo roxo com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+    color: darkgreen; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+h2, h3 {
+    margin-top: 20px; /* Espaço acima dos subtítulos */
+    font-size: 2em; /* Tamanho dos subtítulos */
+    color: white; /* Cor dos subtítulos */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho da fonte dos itens do cardápio */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+.back-button-container {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 40px; /* Espaço acima do botão */
+}
+
+.back-button {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: darkgreen; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1.2em; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.back-button:hover {
+    background-color: rgb(255, 255, 255); /* Cor de fundo ao passar o mouse */
+}
+
+.recommendation-container {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.8); /* Fundo roxo com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Cor do texto */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho do título principal */
+    color: darkgreen; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+h2 {
+    margin-top: 20px; /* Espaço acima dos subtítulos */
+    font-size: 2em; /* Tamanho dos subtítulos */
+    color: white; /* Cor dos subtítulos */
+}
+
+select {
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaço em cima e embaixo */
+    font-size: 1em; /* Tamanho da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+}
+
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: darkgreen; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1.2em; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: lightgreen; /* Cor de fundo ao passar o mouse */
+}
+
+#recommendationResult {
+    margin-top: 20px; /* Espaço acima do resultado */
+    font-size: 1.5em; /* Tamanho da fonte do resultado */
+    color: yellow; /* Cor do texto do resultado */
+}
+
+.back-button-container {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 40px; /* Espaço acima do botão */
+}
+
+.back-button {
+    display: inline-block; /* Exibe como bloco inline */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: darkgreen; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1.2em; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.back-button:hover {
+    background-color: lightgreen; /* Cor de fundo ao passar o mouse */
+}

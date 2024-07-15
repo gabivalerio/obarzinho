@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de Vinhos - Barzinho</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="recommendation-container">
+        <h1>Qual vinho você deve experimentar?</h1>
+        <form id="wineSurvey">
+            <h2>1. Qual tipo de vinho você prefere?</h2>
+            <select name="wineType">
+                <option value="tinto">Tinto</option>
+                <option value="branco">Branco</option>
+                <option value="rose">Rosé</option>
+                <option value="espumante">Espumante</option>
+            </select>
+
+            <h2>2. Você gosta de vinhos mais doces ou secos?</h2>
+            <select name="sweetDry">
+                <option value="doces">Doces</option>
+                <option value="secos">Secos</option>
+            </select>
+
+            <h2>3. Qual é a sua fruta favorita?</h2>
+            <select name="favoriteFruit">
+                <option value="uva">Uva</option>
+                <option value="maca">Maçã</option>
+                <option value="frutasVermelhas">Frutas vermelhas</option>
+                <option value="pessego">Pêssego</option>
+            </select>
+
+            <h2>4. Você prefere um vinho leve ou encorpado?</h2>
+            <select name="body">
+                <option value="leve">Leve</option>
+                <option value="encorpado">Encorpado</option>
+            </select>
+
+            <h2>5. Com que frequência você bebe vinho?</h2>
+            <select name="frequency">
+                <option value="raramente">Raramente</option>
+                <option value="asVezes">Às vezes</option>
+                <option value="frequentemente">Frequentemente</option>
+            </select>
+
+            <button type="button" onclick="submitSurvey()">Enviar</button>
+        </form>
+
+        <div id="recommendationResult" style="display:none;">
+            <h2>Recomendação de Vinho:</h2>
+            <p id="recommendedWine"></p>
+        </div>
+
+        <div class="back-button-container">
+            <a href="index.html" class="back-button">Voltar ao Início</a>
+        </div>
+    </div>
+
+    <script>
+        function submitSurvey() {
+            const wineType = document.querySelector('select[name="wineType"]').value;
+            const sweetDry = document.querySelector('select[name="sweetDry"]').value;
+            const favoriteFruit = document.querySelector('select[name="favoriteFruit"]').value;
+            const body = document.querySelector('select[name="body"]').value;
+            const frequency = document.querySelector('select[name="frequency"]').value;
+
+            let recommendedWine = '';
+
+            // Lógica simples de recomendação
+            if (wineType === 'tinto' && sweetDry === 'secos') {
+                recommendedWine = 'Tinto Reserva';
+            } else if (wineType === 'branco' && sweetDry === 'doces') {
+                recommendedWine = 'Chardonnay Clássico';
+            } else if (wineType === 'rose') {
+                recommendedWine = 'Rosé da Casa';
+            } else if (wineType === 'espumante') {
+                recommendedWine = 'Brut Nacional';
+            } else {
+                recommendedWine = 'Vinho Verde Fresco';
+            }
+
+            document.getElementById('recommendedWine').innerText = recommendedWine;
+            document.getElementById('recommendationResult').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
